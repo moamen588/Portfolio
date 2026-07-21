@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, viewport-fit=cover">
+  <title>Moamen Magdy | Futuristic Portfolio</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="stye.css">
+  
+</head>
+<body>
+  <canvas id="particle-canvas"></canvas>
+
+  <div class="content">
+   
+    <section style="min-height: 100vh; display: flex; align-items: center; justify-content: center; position: relative; padding: 2rem 0;">
+      <div class="container" style="text-align: center; position: relative;">
+        
+        <div data-tilt data-tilt-max="15" data-tilt-speed="800" data-tilt-perspective="900" style="display: inline-block; margin-bottom: 2rem; transform-style: preserve-3d;">
+          <div style="position: relative; width: 200px; height: 200px; margin: 0 auto; border-radius: 50%; background: conic-gradient(from 0deg, #4a3aff, #9b6dff, #3b2f80, #4a3aff); padding: 5px; animation: glowPulse 3s infinite; box-shadow: 0 0 60px #5f4bff;">
+            <div style="background: #0b0b1a; border-radius: 50%; width: 100%; height: 100%; overflow: hidden; display: flex; align-items: center; justify-content: center;">
+              <img src="Me.jpg" alt="Moamen Magdy" style="width: 90%; height: 90%; object-fit: cover; border-radius: 50%; background: #0e0c2a;">
+            </div>
+          </div>
+        </div>
+
+        <h1 data-aos="fade-up" data-aos-duration="900" style="font-size: clamp(3.5rem, 9vw, 6rem); font-weight: 700; margin-top: 1rem; background: linear-gradient(to right, #e0d9ff, #b1a0ff, #8c7aff); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Moamen Magdy</h1>
+        <p data-aos="fade-up" data-aos-delay="150" style="font-size: 1.7rem; color: #b7adff; margin-bottom: 0.5rem; font-weight: 400;">Front-End Developer & High School Student</p>
+        <p data-aos="fade-up" data-aos-delay="250" style="font-size: 1.25rem; color: #a0a0d0; max-width: 600px; margin: 0 auto 2.5rem;">I build modern and responsive web experiences.</p>
+
+        <div data-aos="zoom-in" data-aos-delay="400" style="display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap;">
+          <a href="#skills" class="btn-glow"><i class="fas fa-code"></i> View Skills</a>
+          <a href="#contact" class="btn-glow"><i class="fas fa-paper-plane"></i> Contact Me</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT ME SECTION -->
+    <section style="padding: 5rem 0; position: relative;">
+      <div class="container" data-aos="fade-up" data-aos-duration="800">
+        <h2 class="section-title">About Me</h2>
+        <div class="glass-card" data-tilt data-tilt-max="8" data-tilt-speed="400" style="max-width: 850px; margin: 0 auto; padding: 3rem 2.5rem; text-align: center;">
+          <p style="font-size: 1.35rem; font-weight: 400; color: #d9d0ff; line-height: 1.8;">
+            I’m a Front-End Developer passionate about creating responsive and modern websites. I enjoy solving problems, learning new technologies, and building clean user experiences.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" style="padding: 5rem 0;">
+      <div class="container">
+        <h2 class="section-title" data-aos="fade-down">Technologies</h2>
+        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; margin-top: 2rem;">
+          <!-- Skill cards  -->
+          <div class="skill-card glass-card" data-tilt data-tilt-max="18" data-tilt-glare data-tilt-scale="1.05" data-aos="zoom-in-up" data-aos-delay="50" style="padding: 2rem 1.8rem; width: 160px; text-align: center;">
+            <i class="fab fa-html5" style="font-size: 3.5rem; color: #ff6b4a; filter: drop-shadow(0 0 15px #ff5e3a);"></i>
+            <h3 style="margin-top: 1rem; font-weight: 600;">HTML</h3>
+          </div>
+          <div class="skill-card glass-card" data-tilt data-tilt-max="18" data-tilt-glare data-tilt-scale="1.05" data-aos="zoom-in-up" data-aos-delay="150" style="padding: 2rem 1.8rem; width: 160px; text-align: center;">
+            <i class="fab fa-css3-alt" style="font-size: 3.5rem; color: #3b82f6; filter: drop-shadow(0 0 15px #2563eb);"></i>
+            <h3 style="margin-top: 1rem;">CSS</h3>
+          </div>
+          <div class="skill-card glass-card" data-tilt data-tilt-max="18" data-tilt-glare data-tilt-scale="1.05" data-aos="zoom-in-up" data-aos-delay="250" style="padding: 2rem 1.8rem; width: 160px; text-align: center;">
+            <i class="fab fa-js" style="font-size: 3.5rem; color: #f7df1e; filter: drop-shadow(0 0 15px #eab308);"></i>
+            <h3 style="margin-top: 1rem;">JavaScript</h3>
+          </div>
+          <div class="skill-card glass-card" data-tilt data-tilt-max="18" data-tilt-glare data-tilt-scale="1.05" data-aos="zoom-in-up" data-aos-delay="350" style="padding: 2rem 1.8rem; width: 160px; text-align: center;">
+            <i class="fab fa-python" style="font-size: 3.5rem; color: #4b8bbe; filter: drop-shadow(0 0 15px #306998);"></i>
+            <h3 style="margin-top: 1rem;">Python</h3>
+          </div>
+          <div class="skill-card glass-card" data-tilt data-tilt-max="18" data-tilt-glare data-tilt-scale="1.05" data-aos="zoom-in-up" data-aos-delay="450" style="padding: 2rem 1.8rem; width: 160px; text-align: center;">
+            <i class="fas fa-copyright" style="font-size: 3.5rem; color: #a8b2d1; filter: drop-shadow(0 0 12px #5a6b8c);"></i>
+            <h3 style="margin-top: 1rem;">C</h3>
+          </div>
+          <div class="skill-card glass-card" data-tilt data-tilt-max="18" data-tilt-glare data-tilt-scale="1.05" data-aos="zoom-in-up" data-aos-delay="550" style="padding: 2rem 1.8rem; width: 160px; text-align: center;">
+            <i class="fas fa-c" style="font-size: 3.5rem; color: #6495ed; filter: drop-shadow(0 0 12px #4169e1);"></i>
+            <h3 style="margin-top: 1rem;">C++</h3>
+          </div>
+          <div class="skill-card glass-card" data-tilt data-tilt-max="18" data-tilt-glare data-tilt-scale="1.05" data-aos="zoom-in-up" data-aos-delay="650" style="padding: 2rem 1.8rem; width: 160px; text-align: center;">
+            <i class="fas fa-brain" style="font-size: 3.5rem; color: #c084fc; filter: drop-shadow(0 0 18px #a855f7);"></i>
+            <h3 style="margin-top: 1rem;">Algorithm</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY ME / GOALS SECTION -->
+    <section style="padding: 5rem 0;">
+      <div class="container" data-aos="fade-up" data-aos-duration="700">
+        <h2 class="section-title">Why Me</h2>
+        <div class="glass-card" style="max-width: 800px; margin: 0 auto; padding: 3rem 2.5rem; text-align: center; position: relative; overflow: hidden;">
+          <div style="position: absolute; top: -50px; right: -50px; width: 180px; height: 180px; background: radial-gradient(circle, #6d5cff 0%, transparent 70%); opacity: 0.3; border-radius: 50%;"></div>
+          <p style="font-size: 1.5rem; font-weight: 500; color: #e4ddff; position: relative; z-index: 2;">
+            Passionate about programming, problem solving, and building high-quality web experiences.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER / CONTACT SECTION -->
+    <footer id="contact" style="padding: 4rem 0 2rem; border-top: 1px solid rgba(100, 80, 255, 0.2); margin-top: 2rem;">
+      <div class="container" style="text-align: center;">
+        <div data-aos="fade-up" style="display: flex; justify-content: center; gap: 2.5rem; margin-bottom: 2.5rem; flex-wrap: wrap;">
+          <a href="https://www.facebook.com/moomen.magdy.2025" target="_blank" class="social-icon" style="color: #b7adff; font-size: 2.5rem; transition: 0.3s; display: inline-block;">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a href="mailto:moomenmagdy588@gmail.com" class="social-icon" style="color: #b7adff; font-size: 2.5rem; transition: 0.3s;">
+            <i class="fas fa-envelope"></i>
+          </a>
+          <a href="https://wa.me/201224736512" target="_blank" class="social-icon" style="color: #b7adff; font-size: 2.5rem; transition: 0.3s;">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+        </div>
+        <p style="color: #8b8bb0; font-size: 1rem;">© 2026 Moamen Magdy. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
